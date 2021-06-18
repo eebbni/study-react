@@ -13,7 +13,7 @@ class App extends React.Component{
     this.getMovies();
   }
   render(){
-   const {isLoading} = this.state;
+   const {isLoading} = this.state ;
    return <div>{isLoading ? "Loading" : "We are Ready"}</div>
   }
 }
